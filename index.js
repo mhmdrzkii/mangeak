@@ -27,7 +27,7 @@ async function request(url, method, headers, body = null) {
 
 (async () => {
 
-    const numOfAcc = 200;
+    const numOfAcc = 100;
 
     for (let i = 0; i < numOfAcc; i++) {
 
