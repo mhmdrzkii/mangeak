@@ -35,8 +35,8 @@ async function request(url, method, headers, body = null) {
         const tclId = Math.floor(Math.random() * 900000000) + 100000000;
         const firstName = faker.name.firstName();
         const lastName = faker.name.lastName();
-        const email = (`${firstName}${lastName}${Math.floor(Math.random() * 9999)}@qiott.com`).toLowerCase();
-        const password = "Bosskubabi69";
+        const email = (`${firstName}${lastName}${Math.floor(Math.random() * 9999)}@ryzstoree.com`).toLowerCase();
+        const password = "moovadigital";
 
         const headers = {
             'Host': 'api.vidio.com',
